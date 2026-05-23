@@ -1,1 +1,5 @@
-FROM n8nio/n8n:latest
+FROM n8nio/n8n:1.82.1
+
+ENV NODE_ENV=production
+
+EXPOSE 5678
